@@ -1,0 +1,16 @@
+.home-page{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    width: 800px;
+    margin: 350px;
+
+}
+@media only screen and (max-width: 768px) {
+    .home-page{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        margin: 350px 30px;
+    }
+}

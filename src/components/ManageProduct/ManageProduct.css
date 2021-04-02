@@ -1,0 +1,38 @@
+.manageProduct{
+    margin-top: 350px;
+}
+.productsTable{
+    margin-top: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    background-color: cadetblue;
+}
+.dyTable{
+    margin-top: 10px;
+}
+.tableStyle{
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.deleteBtn{
+    margin-left: 20px;
+    background-color: rgb(233, 14, 14);
+}
+.adminTitle{
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+.admin-nav ul li{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.admin-nav{
+    background-color: goldenrod;
+}
+@media only screen and (max-width: 768px) {
+    
+}

@@ -1,0 +1,67 @@
+.admin-nav{
+    float: left;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+h1{
+    margin-bottom: 80px;
+}
+.admin-nav ul li{
+    list-style: none;
+    margin-top: 20px;
+    text-align: start;
+    text-decoration: none;
+}
+.admin-form{
+    float: right;
+    width: 800px;
+    height: 300px;
+    border: 2px solid rgb(34, 31, 31);
+    border-radius: 5px;
+    margin-right: 200px;
+    margin-top: 50px;
+    background-color: whitesmoke
+}
+.submit{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    background-color: greenyellow;
+}
+.admin-page{
+    margin-top: 350px;
+    text-align: center;
+}
+.inputField{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .admin-form{
+        width: 180px;
+        height: 500px;
+        margin-left: 100px;
+       
+    }
+    .inputField{
+        width: 100px;
+    }
+    .quantity{
+        margin-left: 60px;
+    }
+    .responsiveQuantity{
+        margin-left: 60px;
+    }
+    .addImage{
+        margin-left: 60px;
+    }
+    .responsiveAddImage{
+        margin-left: 60px;
+    }
+    
+}
